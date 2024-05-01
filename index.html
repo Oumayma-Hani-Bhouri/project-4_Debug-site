@@ -47,7 +47,7 @@ place, or a glimmer of light and making them immortal"
 
     <title>Nina Carducci Professional Photographer in Bordeaux</title>
     <link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css" />
-    <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="stylesheet" href="./assets/style.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -390,17 +390,19 @@ place, or a glimmer of light and making them immortal"
         <h3>
           <span itemprop="name">Nina Carducci Professional Photographer</span>
         </h3>
-        image : <img
+        <div
+        itemprop=" image" 
+        > <img
             src="assets/images/nina.webp"
             alt="Portrait of a young lady with curly hair "
             title="Portrait of a young lady with curly hair"
             width="100"
             height="100">
+      </div>
         <span itemprop="description"
           >Professional Photographer Capturs a moment, an emotion, a situation,
           a place, or a glimmer of light and making them immortal</span
         >
-        
         <div
           itemprop="address"
           itemscope
@@ -408,14 +410,15 @@ place, or a glimmer of light and making them immortal"
         >
           <span itemprop="streetAddress">68 avenue Alsace-Lorraine</span>
           <span itemprop="addressLocality">Bordeaux</span>
-          <span itemprop="addressCountry">France</span>
+          <span itemprop="addressCountry">FR</span>
           <span itemprop="postalCode">33200</span>
         </div>
         Phone: <span itemprop="telephone">0556677889</span>
         Hours:
         <meta itemprop="openingHours" content="Mo-Fr 10:00-19:00" /> Mon-Fr 11am
         - 7:00pm 
-        Price Range: <span property="priceRange"> $$</span>
+
+        Price Range: <span itemprop="priceRange"> $$</span>
       </div>
     </footer>
 
@@ -441,7 +444,7 @@ place, or a glimmer of light and making them immortal"
           "@type": "PostalAddress",
           "streetAddress": "68 avenue Alsace-Lorraine",
           "addressLocality": "Bordeaux",
-          "addressCountry": "France",
+          "addressCountry": "FR",
           "postalCode": "33200"
         },
         "telephone": "0556677889",
