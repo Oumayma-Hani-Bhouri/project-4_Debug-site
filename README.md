@@ -2,6 +2,7 @@ Project-4: Débuggez et optimisez un site de photographe
 
 
 Ma mission pour ce Projet :
+
 -Faire une optimisation globale du site.
 
 -Mettre en place le référencement local.
